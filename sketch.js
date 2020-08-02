@@ -22,7 +22,7 @@ function setup() {
 }
 
 function draw() {
-  engine = Engine.update();
+  Engine.update(engine);
 
   background(255,255,255); 
 
